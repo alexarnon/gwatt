@@ -1,0 +1,12 @@
+{application, gwatt_lib,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { gwatt_lib_app, []}},
+  {env, []}
+ ]}.
